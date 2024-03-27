@@ -105,7 +105,7 @@ if __name__ == "__main__":
     from os import path, mkdir
 
     parser = ArgumentParser(
-        prog="python -m mongo_schema",
+        prog="python -m mongo_jsonschema",
         description="Generates JSONSchemas from MongoDB Collections by sampling documents from the collection.",
     )
     parser.add_argument("host", help="A MongoDB hostname or connection string.")

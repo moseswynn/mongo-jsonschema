@@ -4,14 +4,14 @@ Reverse engineer JSONSchemas from a MongoDB database.
 
 ## Installation
 
-`pip install mongo-schema`
+`pip install mongo-jsonschema`
 
 ## Usage
 
 ### As CLI Tool
 
 <pre>
-usage: python -m mongo_schema [-h] [-c COLLECTIONS] [-p PORT] [-s SAMPLE_SIZE] [-r {PRIMARY,PRIMARY_PREFERRED,SECONDARY,SECONDARY_PREFERRED,NEAREST}] [-d DESTINATION] [-e] host db
+usage: python -m mongo_jsonschema [-h] [-c COLLECTIONS] [-p PORT] [-s SAMPLE_SIZE] [-r {PRIMARY,PRIMARY_PREFERRED,SECONDARY,SECONDARY_PREFERRED,NEAREST}] [-d DESTINATION] [-e] host db
 
 Generates JSONSchemas from MongoDB Collections by sampling documents from the collection.
 
@@ -38,7 +38,7 @@ optional arguments:
 ### As A Library
 
 ```python
-from mongo_schema import SchemaGenerator
+from mongo_jsonschema import SchemaGenerator
 
 # Initialize with your mongodb hostname and port
 schema_generator = SchemaGenerator('localhost', 27017)

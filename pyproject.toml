@@ -1,10 +1,11 @@
 [tool.poetry]
-name = "mongo-schema"
+name = "mongo-jsonschema"
 version = "0.1.0"
 description = "A CLI tool and library for reverse engineering a JSONSchema from a MongoDB database."
-authors = ["Moses <mail@moseswynn.com>"]
+authors = ["Moses Wynn <mail@moseswynn.com>"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://git.moseswynn.com/moses/mongo-schema
 
 [tool.poetry.dependencies]
 python = "^3.8"
