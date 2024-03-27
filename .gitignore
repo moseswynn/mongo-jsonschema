@@ -1,0 +1,8 @@
+.env
+junk/
+schemas/
+schema_doc/
+jsfh-conf.yaml
+*__pycache__*
+dist/
+.DS_STORE
