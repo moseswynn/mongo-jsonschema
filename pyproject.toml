@@ -5,7 +5,7 @@ description = "A CLI tool and library for reverse engineering a JSONSchema from 
 authors = ["Moses Wynn <mail@moseswynn.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://git.moseswynn.com/moses/mongo-schema
+homepage = "https://github.com/moseswynn/mongo-jsonschema
 
 [tool.poetry.dependencies]
 python = "^3.8"
