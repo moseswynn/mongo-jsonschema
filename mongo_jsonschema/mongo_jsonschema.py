@@ -55,7 +55,7 @@ class SchemaGenerator:
             A dict or list of dicts containing the schemas generated for the provided collections.
         """
         if isinstance(collections, str):
-            return self._get_schema(db, collection, sample_percent, **kwargs)
+            return self._get_schema(db, collections, sample_percent, **kwargs)
         elif isinstance(collections, list):
             return [
                 self._get_schema(db, collection, sample_percent, **kwargs)
@@ -97,8 +97,7 @@ class SchemaGenerator:
                 "error": "external_sorting disabled, memory limit exceeded for query"
             }
 
-
-if __name__ == "__main__":
+def main():
     from argparse import ArgumentParser
     from pymongo.read_preferences import ReadPreference
     from pymongo.read_preferences import _MODES as read_preference_modes
