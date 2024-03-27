@@ -1,5 +1,7 @@
 # Mongo JSONSchema
 
+[![PyPI Version Badge](https://img.shields.io/pypi/v/mongo-jsonschema?style=for-the-badge&logo=pypi&logoColor=FFFFFF)](https://pypi.org/project/mongo-jsonschema/)
+
 Reverse engineer JSONSchemas from a MongoDB database.
 
 ## Installation
