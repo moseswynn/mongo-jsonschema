@@ -1,4 +1,4 @@
-# Mongo Schema
+# Mongo JSONSchema
 
 Reverse engineer JSONSchemas from a MongoDB database.
 
